@@ -1,0 +1,13 @@
+{{template "header.html"}}
+
+<table>
+{{range .}}
+<tr>
+    <td><a href="/devices/{{.device.nickname}}">{{.device.nickname}}</a></td>
+    <td>{{.device.uuid}}</td>
+    <td>{{.device.mac}}</td>
+</tr>
+{{end}}
+</table>
+
+{{template "footer.html"}}

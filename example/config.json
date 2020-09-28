@@ -1,0 +1,22 @@
+{
+    "pages": [
+        {
+            "api_url": "http://api.example.com/repos",
+            "uri": "/repos",
+            "template": "repos",
+            "cache_expiry": 30
+        },
+        {
+            "api_url": "http://api.example.com/v1/devices",
+            "uri": "/devices",
+            "template": "devices",
+            "cache_expiry": 30
+        },
+        {
+            "api_url": "http://api.example.com/v1/devices/:name",
+            "uri": "/devices/:name",
+            "template": "device",
+            "cache_expiry": 30
+        }
+    ]
+}
